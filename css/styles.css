@@ -437,6 +437,8 @@ strong { color: var(--heading); font-weight: 600; }
   transition: transform 420ms var(--ease), box-shadow 420ms var(--ease), border-color 420ms var(--ease-soft);
   overflow: hidden;
 }
+.concept-card { max-width: 440px; margin: 38px auto 0; }
+
 .card::before {
   content: '';
   position: absolute;
